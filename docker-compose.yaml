@@ -60,6 +60,9 @@ services:
             - server
             - db
 
+    #######################
+    ### Setting up mongodb
+    #######################
     db:
         image: mongo
         ports: 
